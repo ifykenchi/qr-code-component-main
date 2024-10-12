@@ -1,0 +1,65 @@
+/* Reset Default styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(203, 213, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(15, 23, 42);
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(107, 114, 128);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 288px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    width: 320px;
+    height: 499px;
+    background-color: white;
+    padding: 16px 16px 40px;
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 0px 16px;
+}
+
+
+
+
